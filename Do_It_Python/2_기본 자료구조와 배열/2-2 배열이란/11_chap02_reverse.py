@@ -14,7 +14,7 @@ if __name__=='__main__':
     x = [None] * nx     # 원소 수가 nx인 리스트를 생성
 
     for i in range(nx):
-        x[i] = int(input(f'x[{i}]값을 입력하세요.: ))
+        x[i] = int(input(f'x[{i}]값을 입력하세요.: '))
 
     reverse_array(x)    # x를 역순으로 정렬
 
