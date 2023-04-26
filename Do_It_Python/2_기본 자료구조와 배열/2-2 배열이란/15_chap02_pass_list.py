@@ -12,3 +12,7 @@ value = int(input('새로운 값을 입력하세요.: '))
 
 change(x, index, value)
 print(f'x = {x}')
+
+"""
+인수가 뮤터블하면 함수 안에엇 업데이트한 값이 원래 호출한 곳으로 전달됨
+"""
